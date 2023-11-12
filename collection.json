@@ -126,14 +126,8 @@
 				"method": "PUT",
 				"header": [],
 				"body": {
-					"mode": "formdata",
-					"formdata": [
-						{
-							"key": "note",
-							"value": "222",
-							"type": "text"
-						}
-					]
+					"mode": "raw",
+					"raw": "dota2"
 				},
 				"url": {
 					"raw": "http://localhost:8000/notes/1",
